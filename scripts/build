@@ -88,4 +88,8 @@ pushd "$imagesdir"/rust
 docker-build base rust
 popd
 
+pushd "$imagesdir"/zig
+docker-build base zig
+popd
+
 status "Done"
